@@ -1,0 +1,38 @@
+body {
+    background-color: blueviolet;
+  }
+
+  h1 {
+    color: white;
+    text-decoration: underline;
+  }
+
+  h2, h3, p {
+    color: yellow;
+  }
+
+  .tinyText {
+    font-size: 12px;
+    /* font-family: cursive; */
+  }
+
+  .bigText {
+    font-size: 38px;
+    /* font-family: cursive; */
+  }
+
+  .centerText, h1 {
+    text-align: center;
+  }
+
+  .butterfinger {
+    color: orange;
+  }
+
+  .ferrero {
+    color: gold;
+  }
+
+  .all {
+    color: blue;
+  }
