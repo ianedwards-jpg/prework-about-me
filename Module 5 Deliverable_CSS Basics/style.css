@@ -26,6 +26,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  .changedFont {
+    font-size: 12px;
+    font-family: cursive;
+  }
+
   h1, .centerText {
     text-align: center;
   }
