@@ -2,13 +2,20 @@
 <html>
 <head>
     <title>Jiggle Into JavaScript</title>
-    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+
+    <!--jQuery-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+            <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  -->
+     
+    <!--jQuery-->
+
 </head>
+
 <body>
 
     <p>Press the buttons to change the box!</p>
 
-    <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px"></div>
+    <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px; opacity:1"></div>
 
     <button id="button1">Grow</button>
     <button id="button2">Blue</button>
@@ -17,6 +24,26 @@
     <button id="button5">Reset</button>
 
     <script type="text/javascript" src="javascript.js"></script>
-
+    
 </body>
 </html>
+
+<!-- 
+        
+    <div id="div1" style="width:80px;height:80px;background-color:red;"></div>
+    <br>
+    <div id="div2" style="width:80px;height:80px;background-color:green;"></div>
+    <br>
+    <div id="div3" style="width:80px;height:80px;background-color:blue;"></div>
+        
+        <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+               $("#box").fadeToggle();
+               // $("#div1").fadeToggle();
+               // $("#div2").fadeToggle("slow");
+               // $("#div3").fadeToggle(3000);
+         });
+         });
+        </script>
+    --> 
